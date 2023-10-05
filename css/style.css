@@ -16,6 +16,7 @@ ol {
   font-weight: 700;
   color: #2e2f42;
   line-height: 1.166;
+  text-decoration: none;
 }
 .weblogo {
   font-family: 'Raleway';
@@ -23,6 +24,7 @@ ol {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.166;
+  text-decoration: none;
 }
 
 .page-nav .link {
