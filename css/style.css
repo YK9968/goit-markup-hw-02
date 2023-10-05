@@ -25,7 +25,7 @@ ol {
   line-height: 1.166;
 }
 
-.page-nav {
+.page-nav .link {
   color: #2e2f42;
   font-family: 'Roboto';
   font-size: 16px;
@@ -43,7 +43,8 @@ ol {
   color: #404bbf;
 }
 
-.contacts {
+.contacts .link {
+  font-style: normal;
   color: #434455;
   font-family: 'Roboto';
   font-size: 16px;
