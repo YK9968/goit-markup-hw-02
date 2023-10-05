@@ -36,14 +36,15 @@ ol {
   color: #404bbf;
   text-decoration: underline;
 }
-.contacts {
- 
-  font-family: 'Roboto';
-  font-size: 16px;
-  line-height: 1.5;
-}
 
 .contacts .link:active,
 .contacts .link:focus {
   color: #404bbf;
+}
+
+.contacts {
+  color: #434455;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
 }
