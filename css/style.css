@@ -3,6 +3,7 @@ body {
   color: #434455;
   font-size: 16px;
 }
+
 .link {
   text-decoration: none;
 }
@@ -32,6 +33,7 @@ ol {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .page-nav .link:active,
 .page-nav .link:focus {
@@ -39,7 +41,7 @@ ol {
   text-decoration: underline;
 }
 
-.contacts .link:active,
+.contacts .link:hover,
 .contacts .link:focus {
   color: #404bbf;
 }
@@ -49,6 +51,7 @@ ol {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .main-title {
@@ -58,6 +61,7 @@ ol {
   color: #ffffff;
   background-color: #2e2f42;
   text-align: center;
+  letter-spacing: 1.12px;
 }
 .button-order-service {
   cursor: pointer;
@@ -66,7 +70,85 @@ ol {
   line-height: 1.5;
   color: #ffffff;
   background-color: #4d5ae5;
+  letter-spacing: 0.64px;
 }
 .button-order-service:hover {
   background-color: #404bbf;
+}
+
+.title-advantages {
+  color: #434455;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.72px;
+}
+
+.subtitle-advantages {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.text-advantages {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.title-team {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.72px;
+}
+
+.subtitle-team {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.text-team {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.title-portfolio {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1.111;
+  text-transform: capitalize;
+}
+.subtitle-portfolio {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.text-portfolio {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.text-basement {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #f4f4fd;
+  background-color: #2e2f42;
 }
