@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   font-size: 16px;
   background-color: #ffffff;
@@ -13,7 +13,7 @@ ol {
   list-style-type: none;
 }
 .logo {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #4d5ae5;
@@ -23,7 +23,7 @@ ol {
   text-transform: uppercase;
 }
 .weblogo {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: 'Raleway', sans-serif;
   color: #2e2f42;
   font-size: 18px;
   font-weight: 700;
@@ -47,13 +47,15 @@ ol {
   text-decoration: underline;
 }
 
+.contacts {
+  font-style: normal;
+}
 .contacts .link:hover,
 .contacts .link:focus {
   color: #404bbf;
 }
 
 .contacts .link {
-  font-style: normal;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -79,10 +81,10 @@ ol {
   color: #ffffff;
   background-color: #4d5ae5;
   letter-spacing: 0.64px;
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Roboto', sans-serif;
 }
 .button-order-service:hover,
-.button-order-service:hover {
+.button-order-service:focus {
   background-color: #404bbf;
 }
 
@@ -174,7 +176,7 @@ ol {
 }
 
 .basementlogo {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: 'Raleway', sans-serif;
   color: #f4f4fd;
   font-size: 18px;
   font-weight: 700;
