@@ -1,7 +1,8 @@
 body {
-  font-family: 'Roboto', 'Raleway', 'sans-serif';
+  font-family: 'Roboto', 'sans-serif';
   color: #434455;
   font-size: 16px;
+  background-color: #ffffff;
 }
 
 .link {
@@ -12,20 +13,24 @@ ol {
   list-style-type: none;
 }
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'sans-serif';
   font-size: 18px;
   font-weight: 700;
-  color: #2e2f42;
-  line-height: 1.166;
+  color: #4d5ae5;
+  line-height: 1.17;
   text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .weblogo {
-  font-family: 'Raleway';
-  color: #4d5ae5;
+  font-family: 'Raleway', 'sans-serif';
+  color: #2e2f42;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.166;
+  line-height: 1.7;
   text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .page-nav .link {
@@ -36,6 +41,7 @@ ol {
   letter-spacing: 0.32px;
 }
 .page-nav .link:active,
+.page-nav .link:hover,
 .page-nav .link:focus {
   color: #404bbf;
   text-decoration: underline;
@@ -53,13 +59,15 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.herosc {
+  background-color: #2e2f42;
+}
 
 .main-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.107;
+  line-height: 1.07;
   color: #ffffff;
-  background-color: #2e2f42;
   text-align: center;
   letter-spacing: 1.12px;
 }
@@ -71,7 +79,9 @@ ol {
   color: #ffffff;
   background-color: #4d5ae5;
   letter-spacing: 0.64px;
+  font-family: 'Roboto', 'sans-serif';
 }
+.button-order-service:hover,
 .button-order-service:hover {
   background-color: #404bbf;
 }
@@ -96,6 +106,12 @@ ol {
 .text-advantages {
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.list-team {
+  background-color: #ffffff;
 }
 .title-team {
   color: #2e2f42;
@@ -151,4 +167,19 @@ ol {
   letter-spacing: 0.32px;
   color: #f4f4fd;
   background-color: #2e2f42;
+}
+
+.basement {
+  background-color: #2e2f42;
+}
+
+.basementlogo {
+  font-family: 'Raleway', 'sans-serif';
+  color: #f4f4fd;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
